@@ -28,8 +28,7 @@ def bubble_sort_by(words)
   loop do
     swapped = false
     words[0..-2].each_with_index.map do |word, index|
-      result = yield words[index], words[index+1]
-      if result > 0
+      if (yield words[index], words[index+1]) > 0
         words[index], words[index+1] = words[index+1], words[index]
         swapped = true
       end
