@@ -1,7 +1,7 @@
 # Adv_Building_Blox
 
 Completed two tasks as presented by The Odin Project. 
-Source: https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks
+
 
 1. 
 
@@ -22,3 +22,5 @@ Rebuild enumerable modules.
 #count
 #map
 #inject
+
+Source: https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks
